@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter71 IT Solutions</title>
+  <link rel="shortcut icon" type="image/svg" href="static/hunter71-icon.svg"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="static/style.css">
+  <!-- Custom JS -->
+  <script src="static/script.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1fa30f3d4d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <img class="navbar-brand" src="static/hunter71-logo.svg" alt="Hunter71 IT Solutions" width="175" height="50">
+      <div class="mx-3" id="languagesNav">
+        <ul class="list-group list-group-horizontal bg-light ml-auto">
+          <li class="list-group-item bg-light borderless">
+            <a href="dark/cv.html">
+              <i class="fa-solid fa-image fa-2xl text-dark" title="Dark Mode"></i>
+            </a>
+          </li>
+          <li class="list-group-item bg-light borderless">
+            <a href="pl/cv.html">
+              <img class="selectable-lang" src="static/pl.svg" alt="Polski" title="Polski" width="40" height="25">
+            </a>
+          </li>
+          <li class="list-group-item bg-light borderless">
+            <a href="">
+              <img class="active-lang" src="static/gb.svg" alt="English" title="English" width="40" height="25">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link rounded-pill px-4" href="index.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-info rounded-pill px-4" href="cv.html">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill px-4" href="blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header class="container-fluid bg-info text-white py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <p class="mt-2 mb-0 font-weight-bold">Apr 2023</p>
+          <p>last update</p>
+        </div>
+        <div class="col-md-8">
+          <h1 class="display-4 font-weight-bold">Curriculum Vitae</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main content -->
+  <main class="container my-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-12">
+          <div class="section my-4">
+            <section>
+              <h2 class="my-4">Experience</h2>
+              <div class="timeline">
+                <ul class="list-unstyled">
+                  <li>
+                    <div class="content">
+                      <h4 class="text-info">Senior Python Developer</h4>
+                      <h6><a href="https://dsstream.com/" target="_blank">DS Stream</a>, Warsaw <span
+                          class="mx-2">🇵🇱</span></h6>
+                      <p class="date">Apr 2023 - present</p>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="content">
+                      <h4 class="text-info">Backend Engineer</h4>
+                      <button class="btn active-button btn-outline-info mb-3 float-right" type="button"
+                        data-toggle="collapse" data-target="#kalepa" aria-expanded="false" aria-controls="kalepa">
+                        Show details
+                      </button>
+                      <h6><a href="https://www.kalepa.com/" target="_blank">Kalepa</a>, New York <span
+                          class="mx-2">🇺🇸</span></h6>
+                      <p class="date">Jun 2022 - Mar 2023</p>
+                      <div class="collapse" id="kalepa">
+                        <ul class="list-unstyled mx-4 left-border">
+                          <li>Maintaining microservices and serverless infrastructure of <a
+                              href="https://www.kalepa.com/solution" target="_blank">Copilot</a> web app.</li>
+                          <li>Researching for data and implementing web scrapers batch jobs.</li>
+                          <li>Migrating data and ensuring database consistency.</li>
+                          <li>Technologies:
+                            <ul class="fashion-list">
+                              <li>Microservices, Serverless, Python, Flask</li>
+                              <li>PostgreSQL, AWS, Docker, OpenAPI, API first, Datadog, Sentry</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="content">
+                      <h4 class="text-info">Software Engineer & Scrum Master</h4>
+                      <button class="btn active-button btn-outline-info mb-3 float-right" type="button"
+                        data-toggle="collapse" data-target="#showpad" aria-expanded="false" aria-controls="showpad">
+                        Show details
+                      </button>
+                      <h6><a href="https://www.showpad.com/" target="_blank">Showpad</a>, Ghent <span
+                          class="mx-2">🇧🇪</span></h6>
+                      <p class="date">Jun 2019 - May 2022</p>
+                      <div class="collapse" id="showpad">
+                        <ul class="list-unstyled mx-4 left-border">
+                          <li>Maintaining microservices codebase and infrastructure within the <a
+                              href="https://help.showpad.com/hc/en-us/articles/360010377220-Guide-to-using-MeetingIQ"
+                              target="_blank">MeetingIQ</a> project.</li>
+                          <li>Implementing 3rd party integrations.</li>
+                          <li>Facilitating Scrum processes within the team.</li>
+                          <li>Technologies:
+                            <ul class="fashion-list">
+                              <li>Microservices, Python, Flask, TypeScript</li>
+                              <li>MySQL, AWS, Kubernetes, Docker, CI/CD automation (Gitlab)</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="content">
+                      <h4 class="text-info">Python Developer</h4>
+                      <button class="btn active-button btn-outline-info mb-3 float-right" type="button"
+                        data-toggle="collapse" data-target="#rawlplug" aria-expanded="false" aria-controls="rawlplug">
+                        Show details
+                      </button>
+                      <h6><a href="https://rawlplug.pl/en/products/" target="_blank">Rawlplug</a>, Wrocław <span
+                          class="mx-2">🇵🇱</span></h6>
+                      <p class="date">Jun 2015 - Apr 2019</p>
+                      <div class="collapse" id="rawlplug">
+                        <ul class="list-unstyled mx-4 left-border">
+                          <li>Development, testing, and maintenance of company-dedicated software.</li>
+                          <li>Technologies:
+                            <ul class="fashion-list">
+                              <li>ERP systems, Python, Django, C#</li>
+                              <li>MySQL, HANA, Crystal Reports</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="content">
+                      <h4 class="text-info">Python Developer</h4>
+                      <button class="btn active-button btn-outline-info mb-3 float-right" type="button"
+                        data-toggle="collapse" data-target="#pwr" aria-expanded="false" aria-controls="pwr">
+                        Show details
+                      </button>
+                      <h6><a href="http://nlp.pwr.wroc.pl/en/" target="_blank">Wroclaw University</a>, Wrocław <span
+                          class="mx-2">🇵🇱</span></h6>
+                      <p class="date">Feb 2013 - Feb 2015</p>
+                      <div class="collapse" id="pwr">
+                        <ul class="list-unstyled mx-4 left-border">
+                          <li>Conceptual designing and creating web search engine <a
+                              href="http://nlp.pwr.wroc.pl/narzedzia-i-zasoby/narzedzia/borsuk" target="_">Borsuk</a>.
+                          </li>
+                          <li>Creating applications and libraries for Natural Language Processing tools.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr />
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <h2 class="my-4">Education</h2>
+              <div class="timeline">
+                <ul class="list-unstyled">
+                  <li>
+                    <div class="content">
+                      <h4>Master of Science - MS</h4>
+                      <h6><a href="https://pwr.edu.pl/en/" target="_blank">Wrocław University of Science and
+                          Technology</a></h6>
+                      <p><span class="date mr-4">2014 - 2016</span> Intelligent IT Systems</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="content mt-4">
+                      <h4>Bachelor of Engineering - BE</h4>
+                      <h6><a href="https://pwr.edu.pl/en/" target="_blank">Wrocław University of Science and
+                          Technology</a></h6>
+                      <p><span class="date mr-4">2009 - 2013</span> Computer Science</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 bg-light">
+          <div class="section my-4">
+            <h2>Contact</h2>
+            <ul class="list-unstyled mt-3">
+              <li>
+                <i class="fa-solid fa-mobile-screen-button mx-2">&nbsp;</i>
+                <span class="phone font-weight-bold"></span>
+                <a class="phoneLink text-secondary" href="#" onclick="javascript:showPhone()">[show...]</a>
+              </li>
+              <li>
+                <i class="fa-regular fa-at mx-2"></i>
+                <span class="email font-weight-bold"></span>
+                <a class="emailLink text-secondary" href="#" onclick="javascript:showEmail()">[show...]</a>
+              <li><i class="fa-regular fa-map mx-2"></i><a
+                  href="https://www.google.com/maps/search/?api=1&query=wroc%C5%82aw,poland" target="_blank">Wrocław</a>
+                🇵🇱</li>
+              <li><i class="fab fa-linkedin text-linkedin mx-2"></i><a
+                  href="https://www.linkedin.com/in/tomaszzieba71/" target="_blank"> tomaszzieba71</a></li>
+              <li><i class="fab fa-twitter text-twitter mx-2"></i><a href="https://twitter.com/TomaszZieba71"
+                  target="_blank">TomaszZieba71</a></li>
+            </ul>
+            <h2 class="mt-4">Languages</h2>
+            <ul class="list-unstyled mt-3">
+              <li><span class="font-weight-bold mx-2">Polish</span> (Native)</li>
+              <li><span class="font-weight-bold mx-2">English</span> (Professional Working)</li>
+            </ul>
+            <h2 class="mt-4">Main Skills</h2>
+            <ul class="list-unstyled mt-3">
+              <li class="font-weight-bold mx-2">Python</li>
+              <li class="font-weight-bold mx-2">OpenAPI</li>
+              <li class="font-weight-bold mx-2">PostgreSQL/MySQL</li>
+              <li class="font-weight-bold mx-2">AWS</li>
+              <li class="font-weight-bold mx-2">Docker</li>
+              <li class="font-weight-bold mx-2">SCRUM</li>
+            </ul>
+            <h2 class="mt-4">Certifications</h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><i class="fab fa-aws mx-2"></i><a
+                  href="https://www.credly.com/badges/989ce254-b738-4be5-bfdf-6da9e318114e" target="_blank">AWS
+                  Certified Cloud Practitioner</a></li>
+              <li><i class="fa-solid fa-shapes mx-2"></i><a
+                  href="https://www.credly.com/badges/c4fc796d-840c-4531-a0a4-09d10c2d06ba" target="_blank">
+                  Professional Scrum Master I</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-8">
+        </div>
+        <div class="col-4">
+          <a href="static/tomasz-zieba-cv-apr-2023.pdf" class="btn btn-primary btn-lg btn-block" target="_blank"
+            rel="noopener noreferrer">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 - <i class="fa-solid fa-infinity"></i><span class="mx-3">Hunter71 IT Solutions Tomasz Zięba</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

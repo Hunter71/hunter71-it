@@ -1,0 +1,57 @@
+.navbar-lang-btn {
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar-lang-selected {
+  border: 1px solid black;
+}
+
+.active-lang {
+  border: 2px solid #14a2b8;
+  border-radius: 50%;
+}
+
+.active-lang-dark {
+  border: 2px solid #FCE071;
+  border-radius: 50%;
+}
+
+.selectable-lang {
+  border: 0.5px solid black;
+  border-radius: 50%;
+}
+
+.borderless {
+  border: none;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.left-border {
+  border-left: 3px solid gray;
+  padding-left: 10px;
+}
+
+.bg-hunter71-yellow {
+  color: #161618;
+  background-color: #FCE071;
+}
+
+.text-hunter71-yellow {
+  color: #FCE071;
+}
+
+.text-linkedin {
+  color: #0b65c2;
+}
+
+.text-twitter {
+  color: #1d9bf0;
+}
